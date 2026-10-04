@@ -1,0 +1,51 @@
+{
+  "batch_id": "synthetic-example-v1",
+  "source": {
+    "file": "합성 스냅샷 v1.1",
+    "tab_id": 1284097826,
+    "header_row": 4,
+    "version": "v1.1"
+  },
+  "cutoff": "2026-10-03T06:00:00Z",
+  "students": [
+    {
+      "source_key": "synthetic-student-1",
+      "number": "MBR-000950",
+      "name": "합성 이관 학생",
+      "axis": "개인과외",
+      "status": "재원",
+      "minor": false,
+      "contact": "",
+      "guardian": "",
+      "guardian_contact": "",
+      "song": "",
+      "goal": ""
+    }
+  ],
+  "products": [
+    {
+      "source_key": "synthetic-product-1",
+      "name": "합성 개인 레슨",
+      "axis": "개인과외",
+      "duration": "50분",
+      "status": "사용"
+    }
+  ],
+  "enrollments": [
+    {
+      "source_key": "synthetic-enrollment-1",
+      "student_key": "synthetic-student-1",
+      "product_key": "synthetic-product-1",
+      "start": "2026-10-03",
+      "end": "",
+      "division": "개인과외교습자",
+      "schedule": "토요일 14:00",
+      "status": "유효"
+    }
+  ],
+  "lessons": [
+    {
+      "source_key": "template-only"
+    }
+  ]
+}

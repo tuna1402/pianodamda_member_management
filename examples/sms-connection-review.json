@@ -1,0 +1,20 @@
+{
+  "purpose": "자동 수업 사전 알림",
+  "provider": null,
+  "adapter_implemented": false,
+  "real_sending_enabled": false,
+  "registered_sender": null,
+  "approved_test_recipient": null,
+  "server_secret_reference": null,
+  "minutes_before": null,
+  "recipient_policy": null,
+  "message_type_and_price": null,
+  "daily_amount_limit": null,
+  "monthly_amount_limit": null,
+  "provider_query_strategy": null,
+  "webhook_authentication_strategy": null,
+  "provider_idempotency_evidence": null,
+  "privacy_and_retention_review": null,
+  "limited_send_review": null,
+  "note": "검토용 양식. 비밀키 원문을 넣지 마세요. 이 파일은 발송을 활성화하지 않습니다."
+}

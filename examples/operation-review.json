@@ -1,0 +1,26 @@
+{
+  "policy_review": {
+    "approved": false,
+    "evidence": ""
+  },
+  "privacy_review": {
+    "approved": false,
+    "evidence": ""
+  },
+  "migration_review": {
+    "approved": false,
+    "evidence": ""
+  },
+  "restore_review": {
+    "approved": false,
+    "evidence": ""
+  },
+  "director_review": {
+    "approved": false,
+    "evidence": ""
+  },
+  "deployment_review": {
+    "approved": false,
+    "evidence": ""
+  }
+}
