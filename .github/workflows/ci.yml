@@ -1,0 +1,34 @@
+name: Node 24 checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+      - name: Select Node 24
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+      - name: Record runtime
+        run: node --version
+      - name: Verify repository files
+        run: node scripts/verify-repository.mjs
+      # This app currently has no external dependencies or package-lock.json.
+      # Add a reviewed lockfile and npm ci if dependencies are introduced.
+      - name: Run isolated regression checks
+        run: npm test
+      - name: Run real-clock mock reminder check
+        run: npm run test:live
+
