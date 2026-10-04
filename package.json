@@ -1,0 +1,14 @@
+{
+  "name": "piano-academy-mvp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test.mjs quality-test.mjs service-test.mjs ops-test.mjs ui-test.mjs operations-test.mjs statistics-test.mjs runtime-test.mjs",
+    "test:live": "node --test live-worker-test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "version": "0.10.1"
+}

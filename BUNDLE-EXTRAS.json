@@ -1,0 +1,16 @@
+[
+  ".gitignore",
+  ".github/workflows/ci.yml",
+  ".env.development.example",
+  "README.md",
+  "SOURCE-ALLOWLIST.json",
+  "SOURCE-MANIFEST.json",
+  "BUNDLE-EXTRAS.json",
+  "scripts/prepare-source.mjs",
+  "scripts/verify-repository.mjs",
+  "scripts/package-source.mjs",
+  "docs/ENVIRONMENT.md",
+  "docs/DEPLOYMENT.md",
+  "docs/BACKUP-RESTORE.md",
+  "docs/UPLOAD-READINESS.md"
+]

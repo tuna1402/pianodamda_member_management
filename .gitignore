@@ -1,0 +1,36 @@
+# Local runtime data, exports, and backups
+/data/
+/work/
+/backups/
+/logs/
+*.sqlite*
+*.db
+*.db-*
+*.pdmbak
+*.scratch-*
+*.log
+
+# Actual environment values and private keys
+.env*
+!.env.production.example
+!.env.development.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated dependencies, caches, and local packaging
+node_modules/
+.cache/
+coverage/
+*.zip
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local source-control/account credentials
+.npmrc
+.netrc
+.aws/
+.ssh/
+

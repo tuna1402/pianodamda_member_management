@@ -1,0 +1,230 @@
+{
+  "prepared_at_utc": "2026-10-03T16:09:42.122Z",
+  "project": "piano-academy-mvp",
+  "version": "0.10.1",
+  "source_label": "academy-operations; reviewed implementation snapshot",
+  "uploaded": false,
+  "deployed": false,
+  "files": [
+    {
+      "source": "package.json",
+      "target": "package.json",
+      "bytes": 405,
+      "sha256": "0dab5c73f25ad937ec461e576149b65ce2f8febd4414759bfaa4d898c1dc31fb"
+    },
+    {
+      "source": "server.mjs",
+      "target": "server.mjs",
+      "bytes": 44532,
+      "sha256": "3209119d1d8f0a77743df02fe39f0891db72b1e247395d6f94c0b6b287eb2bb8"
+    },
+    {
+      "source": "operations.mjs",
+      "target": "operations.mjs",
+      "bytes": 32457,
+      "sha256": "4571a4905525912ca9408aa9429c5d5066c369cd66b52aeceb1d5a5dd3dac959"
+    },
+    {
+      "source": "statistics.mjs",
+      "target": "statistics.mjs",
+      "bytes": 3533,
+      "sha256": "e82c85c618b09210afe4ab162bc926e472a06a17bd7375d896ba921f87f5ed3e"
+    },
+    {
+      "source": "static-files.mjs",
+      "target": "static-files.mjs",
+      "bytes": 1034,
+      "sha256": "b81a78f674ca3b275a5b9cdc7d4ec716dd635c7c68d224a622ab540ea65e93aa"
+    },
+    {
+      "source": "service-runtime.mjs",
+      "target": "service-runtime.mjs",
+      "bytes": 3746,
+      "sha256": "31358836590cc2a64ca4ebbbd985a1f4a1bc583e843b25811865e3ef065627a2"
+    },
+    {
+      "source": "sms-provider.mjs",
+      "target": "sms-provider.mjs",
+      "bytes": 862,
+      "sha256": "11d780414ffbdbe636c631b6a736abf25474688b4a33f46f2d5d18185d02f2b6"
+    },
+    {
+      "source": "importer.mjs",
+      "target": "importer.mjs",
+      "bytes": 8708,
+      "sha256": "343dc2ece3379800be48e94eb5dfd54840547f4ea957563ef9cb56fb358ca87d"
+    },
+    {
+      "source": "ops.mjs",
+      "target": "ops.mjs",
+      "bytes": 6049,
+      "sha256": "184b09e7b478364517434d3d43663aeb09ab5375ccc5645ce48c99eb468376b8"
+    },
+    {
+      "source": "test.mjs",
+      "target": "test.mjs",
+      "bytes": 6475,
+      "sha256": "bf9c16dba0b5e86bd64ff8305fcd1fbe378a4c57e1a3568ad0686d7035b09194"
+    },
+    {
+      "source": "quality-test.mjs",
+      "target": "quality-test.mjs",
+      "bytes": 6181,
+      "sha256": "d37b2455829ec3a91e70af04bd081c3288d53ce61f8d156d93d31889ee72de68"
+    },
+    {
+      "source": "service-test.mjs",
+      "target": "service-test.mjs",
+      "bytes": 18109,
+      "sha256": "ba63aae3a8660d9638ce14fa433d0ae5a250ef2ddfd52b0fdf7c37700dc81e92"
+    },
+    {
+      "source": "ops-test.mjs",
+      "target": "ops-test.mjs",
+      "bytes": 4802,
+      "sha256": "27b0d10c98ed72de2631bd30b37a608c7444de16933877a83945b70e6216ab2f"
+    },
+    {
+      "source": "ui-test.mjs",
+      "target": "ui-test.mjs",
+      "bytes": 6159,
+      "sha256": "b40fe974576e9fc33bbf9fd1bf9dd5fdd77e5ab2decd165496b0f190cfa2f551"
+    },
+    {
+      "source": "operations-test.mjs",
+      "target": "operations-test.mjs",
+      "bytes": 25781,
+      "sha256": "e17d390aea56321da242bd1799b64249f7443d466245a45dfae08fc8e3a8e514"
+    },
+    {
+      "source": "statistics-test.mjs",
+      "target": "statistics-test.mjs",
+      "bytes": 9042,
+      "sha256": "e2f16a7e4589330097dd9140229e5cf0bfa7527f4178f81f145fa9513b67e5eb"
+    },
+    {
+      "source": "runtime-test.mjs",
+      "target": "runtime-test.mjs",
+      "bytes": 9812,
+      "sha256": "e1437c0656242c200b75858e164704632b7f1e0134b475455b60918eed54ea6e"
+    },
+    {
+      "source": "live-worker-test.mjs",
+      "target": "live-worker-test.mjs",
+      "bytes": 2468,
+      "sha256": "4423549e9bf8b0a88a96a4851189dbe06d9afc417a5000d8f21d0f0c3b8c4442"
+    },
+    {
+      "source": "public/index.html",
+      "target": "public/index.html",
+      "bytes": 706,
+      "sha256": "ddc197691126c9142785e86d056ee060615aed4969f35b10e86bb4323c2b84e5"
+    },
+    {
+      "source": "public/app.js",
+      "target": "public/app.js",
+      "bytes": 29732,
+      "sha256": "6b7b508500fb0b042b12818fe1018f709eac4debcc247df1cffc70ef71c6d181"
+    },
+    {
+      "source": "public/operations-ui.js",
+      "target": "public/operations-ui.js",
+      "bytes": 26544,
+      "sha256": "b91fc83fe4347de9b4fb8e049a5f002c50374d2fe91c13bcff197f9d2f1dc498"
+    },
+    {
+      "source": "public/charts.js",
+      "target": "public/charts.js",
+      "bytes": 4162,
+      "sha256": "9a1450d98df1cc3bcb0138faaf42ad73ecdba1996a2e8c8fd5e111749468be9c"
+    },
+    {
+      "source": "public/style.css",
+      "target": "public/style.css",
+      "bytes": 17327,
+      "sha256": "3697747f0556bd4a56c335474c7e853fc336994d1a86aeb83c6afffbc5dd57ca"
+    },
+    {
+      "source": "public/assets/piano-studio-hero.png",
+      "target": "public/assets/piano-studio-hero.png",
+      "bytes": 2291407,
+      "sha256": "241955e390a60bf2a0d0436f322d6d5557221c7cc6cb99ba38a78284e06eb1f6"
+    },
+    {
+      "source": "public/assets/music-line.svg",
+      "target": "public/assets/music-line.svg",
+      "bytes": 727,
+      "sha256": "900b0b740eb4abdfcb3a62af09454a11e671aa7e356cd213982891950ab448b8"
+    },
+    {
+      "source": "public/assets/asset-prompts.md",
+      "target": "public/assets/asset-prompts.md",
+      "bytes": 1925,
+      "sha256": "32f4e18c382ed4b4a9ba50da63b470b6bc6204ab6ee2f3d923458b7e3a2e4dc4"
+    },
+    {
+      "source": "examples/import-synthetic.json",
+      "target": "examples/import-synthetic.json",
+      "bytes": 1116,
+      "sha256": "22dba09b73f99e4bc72865fd0b8bd1b0d4d88a81edc0932e236d6d3055d7b9c6"
+    },
+    {
+      "source": "examples/operation-review.json",
+      "target": "examples/operation-review.json",
+      "bytes": 421,
+      "sha256": "eb429b7fe9b80407170ed5028a67d9b50ae4c26b0372979ff5f76a368861cc27"
+    },
+    {
+      "source": "examples/sms-connection-review.json",
+      "target": "examples/sms-connection-review.json",
+      "bytes": 694,
+      "sha256": "1894b24d4f4faecb3145e6db0221eae00722404b094c4e884be0bba2cabacc85"
+    },
+    {
+      "source": "OPERATIONS-README.md",
+      "target": "docs/OPERATIONS-README.md",
+      "bytes": 6965,
+      "sha256": "7033010721300580ee440ab3c705363eb8b03e0564248966b0c2aeac7fe9ea49"
+    },
+    {
+      "source": "DESIGN-STATISTICS.md",
+      "target": "docs/DESIGN-STATISTICS.md",
+      "bytes": 3327,
+      "sha256": "1e0a886b38a77045629cdc78b895a3aea2d8474f8030c4ccdd72e0d243d3a6fa"
+    },
+    {
+      "source": "SERVER-RUNTIME.md",
+      "target": "docs/SERVER-RUNTIME.md",
+      "bytes": 5026,
+      "sha256": "cdc19836d18f0dc5cab2106d6ac37ade5c25f25b7f279835ba17ea0f77156064"
+    },
+    {
+      "source": "운영전환_준비서.md",
+      "target": "docs/운영전환_준비서.md",
+      "bytes": 10128,
+      "sha256": "89ac355b6a9e2a26f30447d26df535987b6dab94b3e1d10ef7785109c84c9b10"
+    },
+    {
+      "source": "문자업체_연결준비서.md",
+      "target": "docs/문자업체_연결준비서.md",
+      "bytes": 4641,
+      "sha256": "8f5d362b0b1c59418ae64cf6adb6b47ff5d56958c5c3e683e02ceb7ff70b1573"
+    },
+    {
+      "source": ".env.production.example",
+      "target": ".env.production.example",
+      "bytes": 303,
+      "sha256": "1b7eb3862b1539bb50d297500c38e0398fdb652ef5dc9d1216417ea24b23a5d3"
+    }
+  ],
+  "excluded": [
+    "data",
+    "work",
+    "SQLite/deletion journal",
+    "backups",
+    "logs",
+    "actual environment files",
+    "private keys",
+    "real academy data"
+  ]
+}
